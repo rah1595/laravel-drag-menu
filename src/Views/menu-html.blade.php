@@ -115,6 +115,7 @@ $currentUrl = url()->current();
                                                         <label class="menu-name-label howto open-label" for="menu-name">
                                                             <span>@lang("menu-builder::messages.name")</span>
                                                             <input name="menu-name" id="menu-name" type="text"
+                                                            onkeydown="checkEnter(event)"
                                                                    class="menu-name regular-text menu-item-textbox"
                                                                    title="@lang("menu-builder::messages.enter_menu_name")"
                                                                    value="@if(isset($indmenu)){{$indmenu->name}}@endif">
@@ -362,3 +363,11 @@ $currentUrl = url()->current();
         </div>
     </div>
 </div>
+<script>
+    function checkEnter(event) {
+        if (event.key === 'Enter' || event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById('save_menu_header').click();
+        }
+    }
+</script>
