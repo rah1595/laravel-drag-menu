@@ -27,20 +27,21 @@
     ],
     "require": {
         "php": "^8.1",
-        "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0"
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "vendor/Efectn": "1.1.1"
     },
     "autoload": {
         "psr-4": {
-            "Rah\\Menu\\": "src/"
+            "Efectn\\Menu\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Rah\\Menu\\MenuServiceProvider"
+                "Efectn\\Menu\\MenuServiceProvider"
             ],
             "aliases": {
-                "Rah": "Efectn\\Menu\\Facades\\Menu"
+                "Efectn": "Efectn\\Menu\\Facades\\Menu"
             }
         }
     },
