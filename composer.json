@@ -48,7 +48,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/rah1595/laravel-drag-menu."
+            "url": "https://github.com/rah1595/laravel-drag-menu"
         }
     ],
     "minimum-stability": "dev",
