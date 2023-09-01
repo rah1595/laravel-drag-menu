@@ -1,5 +1,5 @@
 {
-    "name": "efectn/laravel-menu-builder",
+    "name": "rah1595/laravel-menu-builder",
     "description": " Wordpress like drag & drop menu builder for Laravel 9.x ",
     "keywords": ["Laravel", "Menu", "Wordpress", "Builder", "Drag and Drop"],
     "authors": [
@@ -21,20 +21,21 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": "~5.4|~5.5|5.6|~7.0|~7.1|^7.2|^7.3|^7.4|^8.0|^8.1",
+        "illuminate/support": "~5.5.40|~5.6.0|~5.7.0|~5.8.0|^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {
-          "Efectn\\Menu\\": "src/"
+            "Rah\\Menu\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Efectn\\Menu\\MenuServiceProvider"
+                "Rah\\Menu\\MenuServiceProvider"
             ],
             "aliases": {
-                "Menu": "Efectn\\Menu\\Facades\\Menu"
+                "Rah": "Efectn\\Menu\\Facades\\Menu"
             }
         }
     },
