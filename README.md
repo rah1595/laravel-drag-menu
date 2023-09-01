@@ -11,7 +11,7 @@ Originally forked from [harimayco/wmenu-builder](https://github.com/harimayco/wm
 1. Run
 
 ```php
-composer require rah/laravel-menu-builder
+composer require efectn/laravel-menu-builder
 ```
 
 2. Add facade in the config/app.php (optional )
