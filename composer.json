@@ -3,6 +3,11 @@
     "description": " Wordpress like drag & drop menu builder for Laravel 9.x ",
     "keywords": ["Laravel", "Menu", "Wordpress", "Builder", "Drag and Drop"],
     "authors": [
+         {
+            "name": "Rah",
+            "email": "rah38951@gmail.com",
+            "role": "Maintainer"
+        },
         {
             "name": "Muhammed Efe Çetin",
             "email": "efectn@protonmail.com",
