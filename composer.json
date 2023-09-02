@@ -9,5 +9,4 @@
     "require": {
         "php": "^8.1"
     },
-    // Skipping rest
 }
