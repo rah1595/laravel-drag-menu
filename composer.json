@@ -25,33 +25,13 @@
             "role": "Original Developer"
         }
     ],
-    "require": {
-       "php": "8.1.10",
-      "laravel/framework": "10.21.0"
-        
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Efectn\\Menu\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Efectn\\Menu\\MenuServiceProvider"
-            ],
-            "aliases": {
-                "Efectn": "Efectn\\Menu\\Facades\\Menu"
-            }
-        }
-    },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/rah1595/laravel-drag-menu"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "require": {
+        "php": "^8.1"
+    },
 }
