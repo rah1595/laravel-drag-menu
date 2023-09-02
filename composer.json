@@ -25,11 +25,12 @@
             "role": "Original Developer"
         }
     ],
-    "require": {
-       "php": "8.1.10",
-      "laravel/framework": "^10.0"
-        
+   "require": {
+        "php": "8.1.10",
+        "laravel/framework": "^7|^8|^9|^10",
+        "rah1595/laravel-drag-menu": "^1.0"
     },
+
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -52,5 +53,6 @@
             "url": "https://github.com/rah1595/laravel-drag-menu"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
