@@ -1,12 +1,56 @@
 {
     "name": "rah1595/laravel-drag-menu",
+    "description": "Wordpress like drag & drop menu builder for Laravel",
+    "keywords": ["Laravel", "Menu", "Wordpress", "Builder", "Drag and Drop"],
+    "authors": [
+        {
+            "name": "Rah",
+            "email": "rah38951@gmail.com",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Muhammed Efe Çetin",
+            "email": "efectn@protonmail.com",
+            "homepage": "https://6tel.net",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Rendy Harimayco",
+            "email": "rendyharimayco@gmail.com",
+            "role": "Original Developer"
+        },
+        {
+            "name": "Cristian Garcia",
+            "email": "informacion@cristiangarcia.co",
+            "role": "Original Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "vendor/package": "1.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Efectn\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Efectn\\Menu\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Efectn": "Efectn\\Menu\\Facades\\Menu"
+            }
+        }
+    },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/rah1595/laravel-drag-menu"
         }
     ],
-    "require": {
-        "php": "^8.1"
-    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
