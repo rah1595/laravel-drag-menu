@@ -28,7 +28,6 @@
    "require": {
         "php": "8.1.10",
         "laravel/framework": "^7|^8|^9|^10",
-        "rah1595/laravel-drag-menu": "^1.0"
     },
 
     "license": "MIT",
